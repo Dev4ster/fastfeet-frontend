@@ -12,16 +12,16 @@ export default function Header() {
             <img src={Logo} alt="FastFeet" />
           </Linkz>
           <div>
-            <Linkz to="/" current={true ? 1 : 0}>
+            <Linkz to="/orders" current={true ? 1 : 0}>
               ENCOMENDAS
             </Linkz>
-            <Linkz to="/">ENTREGADORES</Linkz>
-            <Linkz to="/">DESTINATÁRIOS</Linkz>
-            <Linkz to="/">PROBLEMAS</Linkz>
+            <Linkz to="/deliverymans">ENTREGADORES</Linkz>
+            <Linkz to="/recipients">DESTINATÁRIOS</Linkz>
+            <Linkz to="/problems">PROBLEMAS</Linkz>
           </div>
         </nav>
         <aside>
-          <Linkz to="/">Admin FastFeet</Linkz>
+          <Linkz to="/profile">Admin FastFeet</Linkz>
           <Linkz to="/">Sair do sistema</Linkz>
         </aside>
       </Content>
